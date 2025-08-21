@@ -1,52 +1,56 @@
-🏠 Airbnb Dynamic Pricing Dashboard
+# 🏠 Airbnb Dynamic Pricing Dashboard  
 
-📊 Predictive analytics + interactive visualization for smarter Airbnb pricing decisions
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue?logo=python)](https://www.python.org/)  
+[![Tableau](https://img.shields.io/badge/Visualization-Tableau-orange?logo=tableau)](https://www.tableau.com/)  
+[![Machine Learning](https://img.shields.io/badge/ML-Random%20Forest-green?logo=scikit-learn)](https://scikit-learn.org/)  
 
-🚀 Project Overview
+> 📊 **An interactive pricing optimization tool for Airbnb hosts**  
+> Combines **machine learning** (price prediction) with **Tableau dashboards** (dynamic insights) to make smarter revenue decisions.  
 
-This project combines machine learning and interactive data visualization to build a dynamic pricing solution for Airbnb listings.
+---
 
-A Random Forest Regression model was trained to predict optimal prices based on features like:
+## 🚀 Overview  
+This project builds a **dynamic pricing solution** for Airbnb listings by:  
+- Training a **Random Forest Regression model** on listing features  
+- Predicting optimal listing prices  
+- Allowing hosts to test different **price adjustment scenarios**  
+- Visualizing results with a **Tableau dashboard**  
 
-Location (neighbourhood)
+✨ The aim: **maximize revenue while staying competitive**.  
 
-Room type
+---
 
-Availability
+## ⚙️ Tech Stack  
+| Tool | Purpose |
+|------|----------|
+| 🐍 Python | Data cleaning, ML model training |
+| 📊 Tableau | Interactive dashboards & filters |
+| 📦 Scikit-learn | Random Forest Regression |
+| 📑 Pandas, NumPy | Data wrangling & preprocessing |
+| 📉 Matplotlib, Seaborn | Exploratory Data Analysis |
 
-Reviews & ratings
+---
 
-Minimum nights, bedrooms, etc.
+## 📈 Features  
+✅ Predicts prices using ML (R² ~0.49)  
+✅ Compares **Predicted vs Adjusted** prices  
+✅ Interactive filters: neighborhood, room type, availability  
+✅ Parameter control: **Price Adjustment (%)**  
+✅ Dashboard with **neighborhood insights + bar comparisons**  
 
-A Tableau Dashboard was built for interactive exploration, enabling hosts to test pricing scenarios and apply custom adjustments.
+---
 
-✨ The goal: Help hosts make data-driven decisions and optimize revenue while staying competitive.
+## 📊 Dashboard Preview  
+🔹 **Sheet 1** → Average neighborhood prices (Highlights vs Unknown)  
+🔹 **Sheet 2** → Predicted vs Adjusted prices (interactive)  
 
-⚙️ Tech Stack
+*(👉 Add screenshots here once you export from Tableau)*  
 
-Python 🐍 – Data cleaning, feature engineering, ML model training
+---
 
-Scikit-learn – Random Forest Regression for price prediction
+## 🛠️ How to Use  
 
-Pandas & NumPy – Data wrangling and preprocessing
-
-Matplotlib & Seaborn – Exploratory Data Analysis (EDA)
-
-Tableau – Interactive dashboards for price optimization
-
-GitHub – Version control & project hosting
-
-📈 Key Features
-
-✔️ Machine Learning Predictions – Predicts prices with RMSE ~115, R² ~0.49
-✔️ Feature Importance Analysis – Shows top factors driving Airbnb pricing
-✔️ Interactive Price Adjustment – Users can tweak % adjustments and see results instantly
-✔️ Filter by Neighborhood, Room Type, Availability – Custom insights for specific property types
-✔️ Visualization of Predicted vs Adjusted Price – Compare model suggestions with host decisions
-
-📊 Dashboard Snapshots
-
-🔹 Sheet 1 – Price distribution across neighborhoods
-🔹 Sheet 2 – Predicted vs Adjusted price comparison by filters
-🔹 Interactive Filters – Neighborhood, Room Type, Availability, Price Adjustment (%)
-
+### 1. Clone Repository  
+```bash
+git clone https://github.com/yourusername/airbnb-dynamic-pricing.git
+cd airbnb-dynamic-pricing
