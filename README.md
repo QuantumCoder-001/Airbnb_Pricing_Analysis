@@ -42,9 +42,9 @@ This project builds a **dynamic pricing solution** for Airbnb listings by:
 
 ## 📊 Dashboard Preview  
 🔹 **Sheet 1** → Average neighborhood prices (Highlights vs Unknown)  
-🔹 **Sheet 2** → Predicted vs Adjusted prices (interactive)  
+🔹 **Sheet 2** → Predicted vs Adjusted prices (interactive) 
 
-*(👉 Add screenshots here once you export from Tableau)*  
+Dataset: [Inside Airbnb](https://insideairbnb.com/get-the-data/)
 
 ---
 
